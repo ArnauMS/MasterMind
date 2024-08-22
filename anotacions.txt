@@ -1,0 +1,113 @@
+- Forum (html, js, css)
+- Xat (html, js, css)
+- Mastermind (html, js, css) en java millor
+- Solitario (html, js, css)
+- Snake (Java, pero pocs testos)
+-
+
+
+Tips Mastermind:
+
+- inici preguntem qui esta jugant? per ranking puntuacio
+- inici preguntem tambe quants colors volem fer servir (extra)
+- longitud de boles o del taulell (maxims, minims)
+- ranking guardem nom, length, intents (tots de 4 contra 4).
+- consultar ranking directament a l'inici
+- repetim colors
+- llibreria especifica, [o per consola]
+
+
+| - O X -
+
+
+
+
+#########################################################################
+
+
+Vols jugar? (S, N)
+
+
+Si no vol jugar -> mostrar ranking i tambe al final
+
+Quantes boles vols ? (3, 4, 6)
+
+
+Instruccions:
+
+adada
+adadaadadad
+adad
+
+
+| - - - - | X X X
+| - - - - | X - -
+| - - - - | - - -
+| - - - - | X - O
+| - - - - | O O O
+
+
+Si perd -> mostrem solucio
+Si guanya -> num intents
+Ranking amb noms, intents i boles
+
+Ranking:
+
+   Nom   int   Boles
+1. Arnau 3     5
+
+
+
+Bases de dades:
+
+- Taula pels rankings (noms, boles, intents)
+- Taula pels noms (unicament noms)
+- Taula pels colors
+
+
+
+
+Test:
+
+- nom solament chars, no simbols (fronteres, valors limits)
+- boles (3 > x < 9) per ex
+- ranking coherent amb les boles
+- numero intents 
+- fila plena
+- fila buida 
+- posicions correctes
+- posicions incorrectes
+- colors que no toquen
+- colors > boles (+1)
+
+
+Classes:
+- Game
+- Board
+- Player (nom, num intents, 
+- Balls
+- Ranking
+- Info (pistes a la dreta)
+
+
+
+DataBase -> es connecta a la BD
+GameModel -> farà query de les boles
+PlayerModel -> farà la query nom
+RankingModel -> retorna el ranking
+
+
+
+Restriccions:
+- Boles min=4 max=7
+- Colors min=5 max=8
+- Colors=boles+1
+- Intents min=1 màxims=6
+
+
+
+
+
+
+
+

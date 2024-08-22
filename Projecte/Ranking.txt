@@ -1,0 +1,16 @@
+Marc, 4, 4
+Arnau, 5, 5
+Joel, 6, 2
+Maria, 4, 5
+Pol, 4, 1
+Berta, 6, 2
+Ramon, 5, 3
+Albert, 5, 5
+Judith, 7, 6
+Paco, 0, 0
+Daniel, 6, 3
+Raul, 0, 0
+Fran, 5, 4
+Alba, 0, 0
+Andreu, 0, 0
+Enric, 4, 3

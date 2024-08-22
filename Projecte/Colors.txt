@@ -1,0 +1,8 @@
+verd, v
+groc, g
+blau, b
+taronja, t
+rosa, r
+lila, l
+negre, n
+marro, m
